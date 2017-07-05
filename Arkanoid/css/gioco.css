@@ -1,0 +1,143 @@
+	body { 
+		background-image: url(../immagini/sfondogame.png);
+		background-size:cover;
+    }
+	p.indicazioni{
+		position:absolute;
+		width: inherit;
+		color: orange;
+		font-size: 10px;
+		bottom: 10px;
+		left:41%;
+	}
+	#display{
+		position:absolute;
+		background-image:url(../immagini/sfondogame.png);
+		width:800px;
+		height:450px;
+		border:inset white 3px;
+		top:15%;
+		z-index:1;
+		left:18%;
+	}
+	#muro{
+		position:absolute;
+		top:60px;
+		left:175px;
+		width:450px;
+		height:200px;
+		z-index:2;
+	}
+	p.titolo{
+		color: red;
+		font-size: 30px;
+		font-weight:bolder;
+	}
+
+
+	#score{
+		position:absolute;
+		top:40px;
+		left:820px;
+		width:168px;
+		height:161px;
+		background-color:transparent;
+		z-index:2;
+		background-image:url(../immagini/sole.png);
+		text-align:justify;
+	}	
+	#vita{
+		position:absolute;
+		top:200px;
+		left:805px;
+		width:206px;
+		height:161px;
+		background-color:transparent;
+		z-index:2;
+		background-image:url(../immagini/luna.png);
+		text-align:justify;	
+	}	
+	#punteggioo{
+		position:absolute;
+		top:45px;
+		left:35px;
+		font-size:20px;
+	}
+
+	#life{
+		position:absolute;
+		top:50px;
+		left:80px;
+		font-size:20px;
+	}
+	
+	#pallina{
+		position:absolute;
+		width:8px;
+		height:8px;
+		bottom:60px;
+		left:396px;
+		z-index:3;
+		border-radius:100px; /* firefox */ 
+		background-color:gray;
+	}
+	#sbarra{
+		position:absolute;
+		width:90px;
+		height:20px;
+		bottom:40px;
+		left:355px;
+		background-color:green;
+		border-radius:100px; /* firefox */ 
+		border-radius:100px; /* safari, chrome */
+	}
+	form.formcl{
+		border : groove thick blue;
+		background-color : gray;
+		position : absolute;
+		width : 300px;
+		height : 240px;
+		top : 150px;
+		left : 200px; 
+		z-index: 4;
+    }
+	p.titolo2{
+		text-align:center;
+		color: orange;
+		font-size: 30px;
+		font-weight:bolder;
+		margin-left:20px;
+	}
+
+	.mattonella{
+		position:absolute;
+		width:45px;
+		height:20px;
+		background-color:orange;
+		border:1px solid black;
+		z-index:2;
+		border-radius:100px; /* firefox */ 
+		border-radius:100px;
+	}
+	.effetto{
+		position:absolute;
+		z-index:3;
+	}
+
+	.tcentrato{
+		text-align:center;
+		margin-left:10px;
+	}
+	#testonome{
+		margin-left:70px;
+	}
+
+	#indicazionifin{
+		text-align:center;
+		position:absolute;
+		left:0px;
+	}
+
+
+
+

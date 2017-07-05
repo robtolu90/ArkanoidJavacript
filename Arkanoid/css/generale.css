@@ -1,0 +1,59 @@
+	body { 
+		background-image: url(../immagini/sfondoprincqq.png);
+		background-size:cover; 
+    }
+
+	div {
+		position: absolute;
+		font-style: italic;
+	}
+	        
+	div.sfondo{
+		left:25%;
+		top:15%;
+		width:704px;
+		height:500px;
+		border:solid orange 1px;
+	} 
+      
+	img.sfondo{
+	    position: absolute;
+		height:inherit;
+		width:inherit;
+		z-index: -1;
+    } 
+
+
+	div.sfera{
+		z-index:3;
+		border-radius:100px; /* firefox */ 
+		border-radius:100px; 
+		width:28px;
+		height:28px;
+		background-color:gray;
+	}
+	#palla{
+		bottom:0px;
+		left:197px;
+	}
+
+	p{
+		color: black;
+		font-size: 15px;
+		font-weight:bolder;
+		text-align:center;
+		margin: 0px auto;
+	}
+
+	p.giustifica{
+		text-align:justify;
+		margin: 10px;
+	}
+
+	p.indicazioni{
+		position:absolute;
+		width: inherit;
+		color: orange;
+		font-size: 10px;
+		bottom: 10px;
+	}

@@ -1,0 +1,58 @@
+	.titolo{
+		color:orange;
+		border-style: ridge;
+		border-color: #006B00;
+		background-color: blue;
+		border-radius:10px;
+		font-weight:bold;
+		width:80%;
+		height:20%;
+		font-size:150%;
+		text-align:center;
+		font-family: "Andale Mono", AndaleMono, monospace;   
+		position:relative;
+		margin-top: -4%;
+		margin-left: 8%;
+	}
+
+	#tabella{
+		position: absolute;
+		left: 34%;
+		top: 26%;
+		width: 33%;
+		color: orange;
+		text-align:center;
+		font-weight:bolder;
+		font-size: 20px; 
+		border-style: ridge;
+		border-color: orange;
+		border-radius: 7px;
+		background-image:url(../Immagini/sfondoprincq.png);
+		overflow:hidden;
+	}
+	
+	.blocco{
+		background-image:url(../Immagini/sfondoprincq.png);
+		width:40%;
+		height:60%;
+		font-size:100%;
+		font-family: "Andale Mono", AndaleMono, monospace;   
+		position:absolute;
+		top:100px;
+		left:360px;
+		padding: 5%;
+		border:solid orange 2px;
+	}
+    
+	.back{
+        background-image: url(../Immagini/sfondoprincqq.png);
+        background-size:cover;       
+	}
+	.indicazionicl{
+		position:absolute;
+		left:570px;
+		width: inherit;
+		color: grey;
+		font-size: 10px;
+		bottom: 0px;
+	}

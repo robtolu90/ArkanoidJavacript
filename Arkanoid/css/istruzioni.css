@@ -1,0 +1,90 @@
+	body { 
+		background-image: url(../immagini/sfondoprincqq.png);
+		background-size:cover;
+	}
+
+	div {
+		position: absolute;
+		font-style: italic;
+	}
+	        
+	div.sfondo{
+		left:25%;
+		top:75px;
+		width:704px;
+		height:500px;
+		border:solid orange 1px;
+	} 
+      
+	img.sfondo{
+		position: absolute;
+		height:inherit;
+		width:inherit;
+		z-index: -1;
+		background-size:cover;
+	} 
+	p.titolo{
+		color: orange;
+		font-size: 30px;
+		font-weight:bolder;
+	}
+
+	p.intestazione{
+		color: green;
+		font-size: 20px;
+		font-weight:bolder;
+	}
+   
+	p{
+		color: orange;
+		font-size: 15px;
+		font-weight:bolder;
+		text-align:center;
+		margin: 0px auto;
+	}
+
+	p.giustifica{
+		text-align:justify;
+		margin: 10px;
+		color:orange;
+	}
+
+	p.indicazioni{
+		position:absolute;
+		width: inherit;
+		color: grey;
+		font-size: 10px;
+		bottom: 10px;
+	}
+	img{
+	position:absolute;
+	}
+   
+	div.oggetto{
+		height: 250px;
+		width:400px;
+		left:150px;
+		visibility: hidden;
+	}
+
+	#imma{
+		left:300px;
+		bottom:50px;
+		height:100px;
+		width:100px;
+	}
+
+	#sin{
+		left: 10px;
+		bottom: 100px;
+		visibility:hidden;
+	}
+
+	#des{
+		right: 10px;
+		bottom: 100px;
+	}
+	#iniziale{
+		visibility:visible;
+	}
+

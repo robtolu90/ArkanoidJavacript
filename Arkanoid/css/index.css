@@ -1,0 +1,24 @@
+	.bottoni{
+		width:250px;
+		text-align:center;
+		left:220px;
+		font-weight:bolder;
+		font-size: 50px; 
+	}
+
+	#gioca{
+		bottom:170px;
+		color: orange;
+		border: dotted;
+	}
+
+	#istruzioni{
+		bottom:100px;
+		color: orange;
+	}	
+
+	#classifica{
+		bottom:30px;
+		color: orange;
+	}
+
